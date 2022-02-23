@@ -1,0 +1,12 @@
+---
+title: "hw6"
+author: "Hao Ren"
+date: "2/23/2022"
+output: html_document
+---
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
